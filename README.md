@@ -2,14 +2,8 @@
 
 ![Example Image](https://github.com/esfman-git/Osteoarthritis_grading/blob/main/fiqures/program_img_capture.JPG)
 
-VGG16 rgression model을 이용하여 전체이미지에서 cartilage 영역이 수평이 되도록 각도를 조정하여 display합니다. 
-YOLOv7을 이용하여 Cartilage 영역을 crop합니다. 
-본 프로그램에서 사용된 YOLOv7 모델은 Github https://github.com/WongKinYiu/yolov7 에서 가져온 모델입니다. 
-VGG16 classification model을 이용하여 cartialge를 8단계(0,0.5,1,2,3,4,5,6)로 grading합니다. 
+We use a VGG16 regression model to adjust the angle of the entire image so that the cartilage area is displayed horizontally. The cartilage area is then cropped using YOLOv7. The YOLOv7 model used in this program is sourced from https://github.com/WongKinYiu/yolov7. A VGG16 classification model is used to grade the cartilage into 8 levels (0, 0.5, 1, 2, 3, 4, 5, 6).
 
-본 프로그램은 PYQT5를 이용하여 GUI로 구성되어 있습니다. 
-좌측 창의 리스트 박스에 나열되어 있는 이미지를 클릭하고 오른쪽 창의 버튼들을 클릭하면 순서적으로 crtilage grading을 볼 수 있습니다. 
-crop이 잘못되어 있을 경우 이미지 창의 두개의 point를 조정하여 수동으로 cartilage 영역을 crop할 수 있습니다. 
+This program is designed with a GUI using PYQT5. By clicking on the images listed in the left window’s list box and then clicking the buttons in the right window, you can sequentially view the cartilage grading. If the crop is incorrect, you can manually adjust the cartilage area by moving the two points in the image window.
 
-Cartilage 영역을 수평으로 만들기 위한 VGG16 regression weight 값은 https://drive.google.com/file/d/1vVYFrAkchgNYkATRISAqiZk590kggrlp/view?usp=sharing 에서 받을 수 있습니다. 
-Cartilage OA grading을 위한 VGG16 weight 값은 https://drive.google.com/file/d/1_TOGQ6VXYP94psTj3QCx1AlquiX-8Pul/view?usp=sharing 에서 받을 수 있습니다. 
+The VGG16 regression weight values needed to horizontalize the cartilage area can be downloaded from https://drive.google.com/file/d/1vVYFrAkchgNYkATRISAqiZk590kggrlp/view?usp=sharing. The VGG16 weight values for Cartilage OA grading are available at https://drive.google.com/file/d/1_TOGQ6VXYP94psTj3QCx1AlquiX-8Pul/view?usp=sharing."
