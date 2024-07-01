@@ -2,7 +2,7 @@
 
 VGG16 rgression model을 이용하여 전체이미지에서 cartilage 영역이 수평이 되도록 각도를 조정하여 display합니다. 
 YOLOv7을 이용하여 Cartilage 영역을 crop합니다. 
-본 프로그램에서 사용된 YOLOv7 모델은 Github 에서 가저온 모델입니다. 
+본 프로그램에서 사용된 YOLOv7 모델은 Github https://github.com/WongKinYiu/yolov7 에서 가져온 모델입니다. 
 VGG16 classification model을 이용하여 cartialge를 8단계(0,0.5,1,2,3,4,5,6)로 grading합니다. 
 
 본 프로그램은 PYQT5를 이용하여 GUI로 구성되어 있습니다. 
