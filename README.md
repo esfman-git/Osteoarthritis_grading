@@ -1,6 +1,6 @@
 # Grading of Osteoarthritis in Cartilage
 
-![Example Image](https://https://github.com/esfman-git/Osteoarthritis_grading/blob/main/fiqures/program_img_capture.JPG)
+![Example Image](https://github.com/esfman-git/Osteoarthritis_grading/blob/main/fiqures/program_img_capture.JPG)
 
 VGG16 rgression model을 이용하여 전체이미지에서 cartilage 영역이 수평이 되도록 각도를 조정하여 display합니다. 
 YOLOv7을 이용하여 Cartilage 영역을 crop합니다. 
